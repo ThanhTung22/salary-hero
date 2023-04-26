@@ -31,10 +31,10 @@
 
 ```bash
 $ yarn
-```
 $ docker-compose up
 
-$ Rename .env.example to .env
+```
+Rename .env.example to .env
 
 ## Running the app 
 
@@ -52,3 +52,5 @@ $ yarn start:dev
 To fulfill the above business requirements, we can create the following endpoints in our NestJS application: localhost:3000/api/docs
 
 For authentication and authorization, we can implement JWT-based authentication, where a client admin can only access the API endpoints for employees of the company they belong to, and an employee can only request money transfer for their own salary.
+
+DB design : https://dbdiagram.io/d/6445510d6b319470510cfae6
